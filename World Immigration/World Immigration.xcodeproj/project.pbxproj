@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F859E64A1DCFF42A00963A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859E6491DCFF42A00963A93 /* AppDelegate.swift */; };
+		F859E64C1DCFF42A00963A93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859E64B1DCFF42A00963A93 /* ViewController.swift */; };
+		F859E64F1DCFF42A00963A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F859E64D1DCFF42A00963A93 /* Main.storyboard */; };
+		F859E6521DCFF42A00963A93 /* World_Immigration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F859E6501DCFF42A00963A93 /* World_Immigration.xcdatamodeld */; };
+		F859E6541DCFF42A00963A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F859E6531DCFF42A00963A93 /* Assets.xcassets */; };
+		F859E6571DCFF42B00963A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F859E6551DCFF42B00963A93 /* LaunchScreen.storyboard */; };
+		F859E6621DCFF42B00963A93 /* World_ImmigrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859E6611DCFF42B00963A93 /* World_ImmigrationTests.swift */; };
+		F859E66D1DCFF42B00963A93 /* World_ImmigrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859E66C1DCFF42B00963A93 /* World_ImmigrationUITests.swift */; };
+		F859E6811DCFF82700963A93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859E6801DCFF82700963A93 /* LoginViewController.swift */; };
+		F859E6831DCFFE2100963A93 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859E6821DCFFE2100963A93 /* ForgotPasswordViewController.swift */; };
+		F859E6851DCFFE3700963A93 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859E6841DCFFE3700963A93 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F859E65E1DCFF42B00963A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F859E63E1DCFF42A00963A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F859E6451DCFF42A00963A93;
+			remoteInfo = "World Immigration";
+		};
+		F859E6691DCFF42B00963A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F859E63E1DCFF42A00963A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F859E6451DCFF42A00963A93;
+			remoteInfo = "World Immigration";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F859E6461DCFF42A00963A93 /* World Immigration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Immigration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F859E6491DCFF42A00963A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F859E64B1DCFF42A00963A93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F859E64E1DCFF42A00963A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F859E6511DCFF42A00963A93 /* World_Immigration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = World_Immigration.xcdatamodel; sourceTree = "<group>"; };
+		F859E6531DCFF42A00963A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F859E6561DCFF42B00963A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F859E6581DCFF42B00963A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F859E65D1DCFF42B00963A93 /* World ImmigrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World ImmigrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F859E6611DCFF42B00963A93 /* World_ImmigrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World_ImmigrationTests.swift; sourceTree = "<group>"; };
+		F859E6631DCFF42B00963A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F859E6681DCFF42B00963A93 /* World ImmigrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World ImmigrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F859E66C1DCFF42B00963A93 /* World_ImmigrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World_ImmigrationUITests.swift; sourceTree = "<group>"; };
+		F859E66E1DCFF42B00963A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F859E6801DCFF82700963A93 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F859E6821DCFFE2100963A93 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F859E6841DCFFE3700963A93 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F859E6431DCFF42A00963A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F859E65A1DCFF42B00963A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F859E6651DCFF42B00963A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F859E63D1DCFF42A00963A93 = {
+			isa = PBXGroup;
+			children = (
+				F859E6801DCFF82700963A93 /* LoginViewController.swift */,
+				F859E6481DCFF42A00963A93 /* World Immigration */,
+				F859E6601DCFF42B00963A93 /* World ImmigrationTests */,
+				F859E66B1DCFF42B00963A93 /* World ImmigrationUITests */,
+				F859E6471DCFF42A00963A93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F859E6471DCFF42A00963A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F859E6461DCFF42A00963A93 /* World Immigration.app */,
+				F859E65D1DCFF42B00963A93 /* World ImmigrationTests.xctest */,
+				F859E6681DCFF42B00963A93 /* World ImmigrationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F859E6481DCFF42A00963A93 /* World Immigration */ = {
+			isa = PBXGroup;
+			children = (
+				F859E67C1DCFF79B00963A93 /* AppDelegate */,
+				F859E67F1DCFF7A600963A93 /* Resources */,
+				F859E67E1DCFF7A400963A93 /* ViewControllers */,
+			);
+			path = "World Immigration";
+			sourceTree = "<group>";
+		};
+		F859E6601DCFF42B00963A93 /* World ImmigrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F859E6611DCFF42B00963A93 /* World_ImmigrationTests.swift */,
+				F859E6631DCFF42B00963A93 /* Info.plist */,
+			);
+			path = "World ImmigrationTests";
+			sourceTree = "<group>";
+		};
+		F859E66B1DCFF42B00963A93 /* World ImmigrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F859E66C1DCFF42B00963A93 /* World_ImmigrationUITests.swift */,
+				F859E66E1DCFF42B00963A93 /* Info.plist */,
+			);
+			path = "World ImmigrationUITests";
+			sourceTree = "<group>";
+		};
+		F859E67C1DCFF79B00963A93 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F859E6491DCFF42A00963A93 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F859E67E1DCFF7A400963A93 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F859E6821DCFFE2100963A93 /* ForgotPasswordViewController.swift */,
+				F859E6841DCFFE3700963A93 /* SignUpViewController.swift */,
+				F859E64B1DCFF42A00963A93 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F859E67F1DCFF7A600963A93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F859E64D1DCFF42A00963A93 /* Main.storyboard */,
+				F859E6531DCFF42A00963A93 /* Assets.xcassets */,
+				F859E6551DCFF42B00963A93 /* LaunchScreen.storyboard */,
+				F859E6581DCFF42B00963A93 /* Info.plist */,
+				F859E6501DCFF42A00963A93 /* World_Immigration.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F859E6451DCFF42A00963A93 /* World Immigration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F859E6711DCFF42B00963A93 /* Build configuration list for PBXNativeTarget "World Immigration" */;
+			buildPhases = (
+				F859E6421DCFF42A00963A93 /* Sources */,
+				F859E6431DCFF42A00963A93 /* Frameworks */,
+				F859E6441DCFF42A00963A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Immigration";
+			productName = "World Immigration";
+			productReference = F859E6461DCFF42A00963A93 /* World Immigration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F859E65C1DCFF42B00963A93 /* World ImmigrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F859E6741DCFF42B00963A93 /* Build configuration list for PBXNativeTarget "World ImmigrationTests" */;
+			buildPhases = (
+				F859E6591DCFF42B00963A93 /* Sources */,
+				F859E65A1DCFF42B00963A93 /* Frameworks */,
+				F859E65B1DCFF42B00963A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F859E65F1DCFF42B00963A93 /* PBXTargetDependency */,
+			);
+			name = "World ImmigrationTests";
+			productName = "World ImmigrationTests";
+			productReference = F859E65D1DCFF42B00963A93 /* World ImmigrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F859E6671DCFF42B00963A93 /* World ImmigrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F859E6771DCFF42B00963A93 /* Build configuration list for PBXNativeTarget "World ImmigrationUITests" */;
+			buildPhases = (
+				F859E6641DCFF42B00963A93 /* Sources */,
+				F859E6651DCFF42B00963A93 /* Frameworks */,
+				F859E6661DCFF42B00963A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F859E66A1DCFF42B00963A93 /* PBXTargetDependency */,
+			);
+			name = "World ImmigrationUITests";
+			productName = "World ImmigrationUITests";
+			productReference = F859E6681DCFF42B00963A93 /* World ImmigrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F859E63E1DCFF42A00963A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Anish Kodeboyina";
+				TargetAttributes = {
+					F859E6451DCFF42A00963A93 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F859E65C1DCFF42B00963A93 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F859E6451DCFF42A00963A93;
+					};
+					F859E6671DCFF42B00963A93 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F859E6451DCFF42A00963A93;
+					};
+				};
+			};
+			buildConfigurationList = F859E6411DCFF42A00963A93 /* Build configuration list for PBXProject "World Immigration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F859E63D1DCFF42A00963A93;
+			productRefGroup = F859E6471DCFF42A00963A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F859E6451DCFF42A00963A93 /* World Immigration */,
+				F859E65C1DCFF42B00963A93 /* World ImmigrationTests */,
+				F859E6671DCFF42B00963A93 /* World ImmigrationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F859E6441DCFF42A00963A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F859E6571DCFF42B00963A93 /* LaunchScreen.storyboard in Resources */,
+				F859E6541DCFF42A00963A93 /* Assets.xcassets in Resources */,
+				F859E64F1DCFF42A00963A93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F859E65B1DCFF42B00963A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F859E6661DCFF42B00963A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F859E6421DCFF42A00963A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F859E6851DCFFE3700963A93 /* SignUpViewController.swift in Sources */,
+				F859E6811DCFF82700963A93 /* LoginViewController.swift in Sources */,
+				F859E6831DCFFE2100963A93 /* ForgotPasswordViewController.swift in Sources */,
+				F859E64C1DCFF42A00963A93 /* ViewController.swift in Sources */,
+				F859E6521DCFF42A00963A93 /* World_Immigration.xcdatamodeld in Sources */,
+				F859E64A1DCFF42A00963A93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F859E6591DCFF42B00963A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F859E6621DCFF42B00963A93 /* World_ImmigrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F859E6641DCFF42B00963A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F859E66D1DCFF42B00963A93 /* World_ImmigrationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F859E65F1DCFF42B00963A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F859E6451DCFF42A00963A93 /* World Immigration */;
+			targetProxy = F859E65E1DCFF42B00963A93 /* PBXContainerItemProxy */;
+		};
+		F859E66A1DCFF42B00963A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F859E6451DCFF42A00963A93 /* World Immigration */;
+			targetProxy = F859E6691DCFF42B00963A93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F859E64D1DCFF42A00963A93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F859E64E1DCFF42A00963A93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F859E6551DCFF42B00963A93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F859E6561DCFF42B00963A93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F859E66F1DCFF42B00963A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F859E6701DCFF42B00963A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F859E6721DCFF42B00963A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "World Immigration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.World-Immigration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F859E6731DCFF42B00963A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "World Immigration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.World-Immigration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F859E6751DCFF42B00963A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "World ImmigrationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.World-ImmigrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/World Immigration.app/World Immigration";
+			};
+			name = Debug;
+		};
+		F859E6761DCFF42B00963A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "World ImmigrationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.World-ImmigrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/World Immigration.app/World Immigration";
+			};
+			name = Release;
+		};
+		F859E6781DCFF42B00963A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "World ImmigrationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.World-ImmigrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "World Immigration";
+			};
+			name = Debug;
+		};
+		F859E6791DCFF42B00963A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "World ImmigrationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.World-ImmigrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "World Immigration";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F859E6411DCFF42A00963A93 /* Build configuration list for PBXProject "World Immigration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F859E66F1DCFF42B00963A93 /* Debug */,
+				F859E6701DCFF42B00963A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F859E6711DCFF42B00963A93 /* Build configuration list for PBXNativeTarget "World Immigration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F859E6721DCFF42B00963A93 /* Debug */,
+				F859E6731DCFF42B00963A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F859E6741DCFF42B00963A93 /* Build configuration list for PBXNativeTarget "World ImmigrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F859E6751DCFF42B00963A93 /* Debug */,
+				F859E6761DCFF42B00963A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F859E6771DCFF42B00963A93 /* Build configuration list for PBXNativeTarget "World ImmigrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F859E6781DCFF42B00963A93 /* Debug */,
+				F859E6791DCFF42B00963A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F859E6501DCFF42A00963A93 /* World_Immigration.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F859E6511DCFF42A00963A93 /* World_Immigration.xcdatamodel */,
+			);
+			currentVersion = F859E6511DCFF42A00963A93 /* World_Immigration.xcdatamodel */;
+			path = World_Immigration.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F859E63E1DCFF42A00963A93 /* Project object */;
+}
